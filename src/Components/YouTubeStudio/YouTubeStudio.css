@@ -1,0 +1,374 @@
+.main {
+  flex: 0.83;
+  padding: 0 10px;
+  overflow-y: auto;
+}
+.top {
+  display: flex;
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+.main h2 {
+  flex: 0.99;
+}
+.upload {
+  margin-right: 10px;
+}
+.stream,
+.upload {
+  font-size: 35px !important;
+  border-radius: 50%;
+  background-color: #ddd;
+  padding: 5px;
+  cursor: pointer;
+}
+.buttom {
+  display: flex;
+  width: 100%;
+  /* height: fit-content; */
+  height: calc(100vh - 152px);
+  overflow-y: auto;
+}
+/* Upload section */
+.UploadSec {
+  position: relative;
+  background-color: #d7d7d7;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 250px;
+  max-width: 320px;
+  height: 450px;
+}
+.UploadSec::before {
+  content: "";
+  width: 90%;
+  height: 94%;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  border: 2px dashed #bbb;
+  border-radius: 2px;
+}
+.UploadSec .img {
+  width: 40%;
+  margin: 50px auto;
+}
+.UploadSec .img img {
+  width: 100%;
+}
+.UploadText {
+  width: 75%;
+  margin: auto;
+}
+.UploadText p {
+  color: #777;
+  font-size: 14px;
+}
+.UploadButton {
+  width: fit-content;
+  margin: auto;
+}
+.UploadSec button {
+  outline: none;
+  border: none;
+  color: #d7d7d7;
+  background-color: #0d6efd;
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 30px auto;
+}
+/* Upload section */
+
+/* Analytics Section */
+.Analytics {
+  min-width: 300px;
+  max-width: 400px;
+  height: max-content;
+  background-color: #d7d7d7;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px;
+  color: #555;
+  text-transform: capitalize;
+}
+.AnalyticsTitle {
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #333;
+}
+.SubscribersTitle,
+.SummaryTitle,
+.TopVideosTitle {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #333;
+}
+.Analytics .Subscribers span {
+  font-size: 35px;
+  color: #555;
+}
+.Analytics hr {
+  width: 100%;
+  color: #eee;
+  height: 2px;
+}
+.LastTime {
+  font-size: 12px;
+  margin-bottom: 20px;
+  display: block;
+}
+.Views,
+.WatchTime {
+  font-size: 12px;
+  color: #333;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.WatchTime {
+  margin-bottom: 10px;
+}
+.Views h2,
+.WatchTime h2 {
+  font-size: 12px;
+  color: #333;
+}
+.TopVideosTitle ~ span {
+  display: block;
+  font-size: 12px;
+  margin: 0 0 35px;
+}
+/* Analytics Section */
+/* Idea Section */
+.Ideas {
+  display: block;
+  min-width: 300px;
+  max-width: 400px;
+}
+.Idea {
+  background-color: #d7d7d7;
+  width: 100%;
+  min-height: 250px;
+  border: 2px solid #bbb;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.IdeaTitle {
+  font-size: 18px;
+  width: 100%;
+  color: #333;
+  text-transform: capitalize;
+}
+.txt {
+  width: 60%;
+}
+.txt .Title {
+  font-size: 16px;
+  color: #333;
+}
+.txt p {
+  font-size: 12px;
+  color: #555;
+  margin-top: 10px;
+}
+.Shorts {
+  width: 40%;
+}
+.Shorts img {
+  width: 100%;
+  margin-top: -20px;
+}
+/* Idea Section */
+/* creator Insider section */
+.CreatorInsider {
+  background-color: #d7d7d7;
+  width: 100%;
+  min-height: 250px;
+  border: 2px solid #bbb;
+  border-radius: 2px;
+  padding: 10px;
+}
+.CreatorTitle {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0 20px;
+  text-transform: capitalize;
+}
+.creatorImg {
+  width: 100%;
+}
+.creatorImg img {
+  width: 100%;
+}
+.TextTitle {
+  text-transform: capitalize;
+  color: #333;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.CreatorText {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 20px;
+}
+/* creator Insider section */
+.main a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0d6efd;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+/********************************************************************/
+/* Tablates design */
+@media (max-width: 991px) {
+  .main {
+    flex: 0.8;
+    padding: 0;
+    padding-left: 10px;
+  }
+  .top {
+    display: flex;
+    padding: 40px 0;
+    text-transform: capitalize;
+  }
+  .main h2 {
+    flex: 0.95;
+  }
+  .buttom {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  /* Upload section */
+  .UploadSec::before {
+    content: "";
+    width: 90%;
+    height: 94%;
+    top: 10px;
+    left: 10px;
+  }
+  .UploadSec button {
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .Analytics {
+    min-width: 250px;
+    max-width: 400px;
+  }
+  .AnalyticsTitle {
+    font-weight: 700;
+  }
+  .Analytics .Subscribers span {
+    font-size: 30px;
+  }
+  .TopVideosTitle ~ span {
+    display: block;
+    font-size: 12px;
+    margin: 0 0 35px;
+  }
+  /* Idea Section */
+  .Ideas {
+    display: block;
+    min-width: 250px;
+    max-width: 350px;
+  }
+  .Idea {
+    min-height: 220px;
+  }
+  .IdeaTitle {
+    font-size: 16px;
+    color: #333;
+  }
+  .CreatorInsider {
+    min-height: 220px;
+  }
+  .CreatorTitle {
+    font-size: 16px;
+  }
+  .main a {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+/********************************************************************/
+/* Mobile design */
+@media (max-width: 767px) {
+  .main {
+    flex: 0.9;
+    padding: 0 10px;
+    overflow-y: auto;
+  }
+  .top {
+    padding: 10px 0 20px 0;
+  }
+  .top h2 {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  .buttom {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 117px);
+    overflow-y: auto;
+  }
+  .UploadSec {
+    height: 400px;
+  }
+  .UploadSec,
+  .Analytics,
+  .Idea,
+  .CreatorInsider {
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 220px;
+    max-width: 280px;
+    margin: 0 auto 10px;
+  }
+  .Analytics,
+  .Idea,
+  .CreatorInsider {
+    height: max-content;
+  }
+  .UploadText p {
+    width: 100%;
+  }
+  .UploadButton {
+    width: fit-content;
+    margin: auto;
+  }
+  .UploadSec button {
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .Analytics {
+    height: max-content;
+    padding: 15px;
+  }
+  .IdeaTitle {
+    font-size: 16px;
+  }
+  .txt .Title {
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  .CreatorTitle {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  .TextTitle {
+    font-size: 14px;
+  }
+}

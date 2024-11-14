@@ -1,0 +1,243 @@
+.StudioSide {
+  flex: 0.17;
+  position: relative;
+  height: calc(100vh - 77px);
+  border-right: 1px solid #ddd;
+}
+.UserChannel {
+  text-align: center;
+}
+.UserImg {
+  width: fit-content;
+  margin: 20px auto 0;
+}
+.StdAvatar {
+  width: 100px !important;
+  height: 100px !important;
+}
+.UserTitle {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.UserTitle h3 {
+  font-size: 15px;
+  margin: 5px 0 0;
+}
+.UserTitle h2 {
+  font-size: 12px;
+}
+.StudioSide ul {
+  list-style: none;
+  padding: 5px 1px 0 0;
+  min-height: 70px;
+  max-height: 360px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #fff;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+}
+::-webkit-scrollbar {
+  background-color: inherit;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.StudioSide ul li {
+  height: 50px;
+  color: #555;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #fff;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 5px;
+}
+.StudioSide ul .SideIcon {
+  position: absolute;
+  top: 12.5px;
+  left: 5px;
+}
+.StudioSide ul li:hover {
+  background-color: #fafafa;
+}
+.StudioSide ul li.active {
+  background-color: #eee;
+  cursor: default;
+}
+.StudioSide ul li.active:before {
+  content: "";
+  height: 100%;
+  width: 5px;
+  background: #f00;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.StudioSide ul li span {
+  margin-left: 40px;
+  padding: 0;
+  margin-top: 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 5px;
+}
+.StudioSide ul li.active > span {
+  color: #444;
+  font-weight: 900;
+}
+.Setbtns {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 9px);
+  height: 85px;
+  background-color: #fff;
+}
+.Setbtn {
+  padding: 0 10px;
+  height: 40px;
+  color: #555;
+  display: block;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 0;
+  line-height: 40px;
+  text-transform: capitalize;
+  position: relative;
+}
+.Setbtn:not(:first-of-type) {
+  margin-top: 2px;
+}
+.Setbtn span {
+  margin-left: 10px;
+  position: absolute;
+  padding: 0;
+  font-weight: 500;
+  bottom: 0;
+}
+/****************************************************************/
+/* Tablates design */
+@media (max-width: 991px) {
+  .StudioSide {
+    flex: 0.2;
+  }
+  .UserImg {
+    width: fit-content;
+    margin: 20px auto 0;
+  }
+  .StdAvatar {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .UserTitle {
+    padding-bottom: 10px;
+  }
+  .StudioSide ul {
+    max-height: 100% !important;
+    overflow-y: auto;
+  }
+  .StudioSide ul li {
+    color: #444;
+    font-size: 14px;
+  }
+  .StudioSide ul li span {
+    margin-left: 35px;
+  }
+  .Setbtns {
+    width: 100%;
+    padding: 5px 0;
+  }
+  .Setbtn {
+    padding: 5px;
+    background-color: #fff;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+  }
+  .Setbtn:not(:first-of-type) {
+    margin-top: 5px;
+    padding: 8px 5px;
+  }
+  .Setbtn span {
+    margin-left: 5px;
+  }
+}
+/****************************************************************/
+/* Mobiles design */
+@media (max-width: 767px) {
+  .StudioSide {
+    flex: 0.1;
+  }
+  .UserImg {
+    width: fit-content;
+    margin: 10px 5px;
+  }
+  .StdAvatar {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .UserTitle {
+    display: none;
+  }
+  .StudioSide ul {
+    padding-left: 2px;
+  }
+  .StudioSide ul li {
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+  .StudioSide ul .SideIcon {
+    position: absolute;
+    inset: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .StudioSide ul li.active {
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .StudioSide ul li.active:before {
+    content: "";
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to top, #f00, transparent);
+    position: absolute;
+    top: calc(100% - 10px);
+    left: 0;
+  }
+  .StudioSide ul li span {
+    display: none;
+  }
+  .Setbtns {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+    padding: 5px;
+  }
+  .Setbtn {
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+    line-height: 0;
+    text-transform: capitalize;
+    position: relative;
+  }
+  .Setbtn:not(:first-of-type) {
+    margin-top: 2px;
+  }
+  .Setbtn span {
+    display: none;
+  }
+}

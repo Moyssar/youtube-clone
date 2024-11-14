@@ -1,0 +1,105 @@
+.HomeSidebar {
+  flex: 0.15;
+  position: sticky;
+  height: fit-content;
+  top: 76px;
+  background-color: #fff;
+}
+.HomeSidebar ul {
+  list-style: none;
+  padding: 5px 10px;
+}
+.HomeSidebar ul li {
+  padding: 10px;
+  height: 40px;
+  color: #555;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 100%;
+  margin-bottom: 5px;
+  border-radius: 12px;
+  background-color: #eee;
+  text-transform: capitalize;
+  position: relative;
+}
+.HomeSidebar ul li.active {
+  color: red;
+  background-color: #ddd;
+}
+.HomeSidebar ul li span {
+  margin-left: 10px;
+  padding: 0;
+  margin-top: 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 5px;
+}
+
+.HomeSidebar ul li.active > span {
+  color: #444;
+  font-weight: 900;
+}
+
+hr {
+  background-color: #eee;
+  height: 2px;
+  width: 90%;
+  margin: 5px auto;
+}
+/**************************************************************************/
+/* Tablate designe */
+@media (max-width: 991px) {
+  .HomeSidebar {
+    top: 60px;
+  }
+  .HomeSidebar ul {
+    padding: 0 2px;
+  }
+  .HomeSidebar ul li {
+    padding: 5px;
+    height: 35px;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 2px;
+    border-radius: 0;
+  }
+  .HomeSidebar ul li.active {
+    color: red;
+    background-color: #ddd;
+  }
+
+  .HomeSidebar ul li span {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  .HomeSidebar ul li.active > span {
+    color: #333;
+    font-weight: 900;
+  }
+  hr {
+    background-color: #eee;
+    height: 2px;
+    width: 90%;
+    margin: -2px auto;
+  }
+}
+/****************************************************************************/
+/* mobile design */
+@media (max-width: 767px) {
+  .HomeSidebar {
+    top: 60px;
+    /* flex: 0.1; */
+    overflow: hidden;
+  }
+  .HomeSidebar li {
+    text-align: center;
+    width: 40px;
+    height: 40px !important;
+    border-radius: 5px !important;
+    margin: auto;
+  }
+  .HomeSidebar li span {
+    display: none;
+  }
+}

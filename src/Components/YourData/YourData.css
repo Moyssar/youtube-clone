@@ -1,0 +1,514 @@
+/* Navbar */
+.DataNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  border-bottom: 1px solid #ddd;
+  height: 65px;
+  line-height: 40px;
+  position: sticky;
+  background-color: #fff;
+  top: 0;
+  box-shadow: 0 0 7.5px #00000075;
+  z-index: 100;
+}
+.DataNav h2 {
+  font-size: 20.5px;
+  font-weight: 400;
+}
+/* Navbar */
+.container {
+  width: 750px;
+  padding: 30px 15px 0;
+  margin: auto;
+}
+.Title {
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+}
+.ImgContainer {
+  width: 55%;
+  margin: 30px auto;
+}
+.ImgContainer img {
+  max-width: 100%;
+}
+/* Dashboard Section */
+.YourDashboard {
+  border: 1px solid #ddd;
+  border-radius: 7.5px;
+  padding: 20px;
+}
+.YourDashboard h2 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.YourDashboard p {
+  font-weight: 500;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.DashSubs,
+.DashComnt {
+  width: 100%;
+  color: #666;
+  padding: 10px 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.DashComnt {
+  margin-bottom: 20px;
+}
+.DashSubs span,
+.DashComnt span {
+  position: relative;
+  font-weight: 500;
+  color: #666;
+}
+.DashSubs i,
+.DashComnt i {
+  color: #0c52c2;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+}
+.DashSubs i {
+  bottom: -15px;
+}
+.DashComnt i {
+  bottom: -7.5px;
+}
+.DashSubs span:last-of-type {
+  display: block;
+  margin-left: 35px;
+  font-size: 13px;
+}
+.DashSubs p,
+.DashComnt p {
+  padding: 0;
+  margin: 0 0 0 35px;
+  font-weight: 700;
+  color: #777;
+}
+.DashSubs:hover,
+.DashComnt:hover {
+  background-color: #efefef;
+}
+.DashBtn button {
+  padding: 7.5px 10px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+.DashBtn button:hover {
+  background-color: #efefef;
+}
+.DashBtn i {
+  margin-top: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  color: #0c52c2;
+}
+.DashBtn span {
+  margin-left: 25px;
+}
+/* Dashboard Section */
+/* Contrals Section */
+.contrals {
+  color: #000;
+  margin: 25px 0;
+}
+.SecTitles {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+.SecPs {
+  font-weight: 400;
+  font-size: 14.7px;
+  color: #555;
+}
+/* Contrals Section */
+/* History and Search */
+.History,
+.VoiceSearch,
+.Borderd {
+  border: 1px solid #ddd;
+  border-radius: 7.5px;
+  margin: 25px 0;
+}
+.WatchHistory,
+.SearchHistory {
+  padding: 15px;
+}
+
+.MainTitles {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.MainOnBtn {
+  width: 100%;
+  text-align: left;
+  position: relative;
+  height: 45px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.MainOnBtn:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.MainOnBtn span {
+  margin-left: 25px;
+  color: #555;
+  font-weight: 600;
+}
+.MainOnBtn i {
+  position: absolute;
+  top: 13px;
+}
+.MainOnBtn .Check {
+  color: #0c52c2;
+  font-size: 17px;
+}
+.MainOnBtn .Stopped {
+  color: #333;
+  font-size: 17px;
+}
+.MainOnBtn .ChevRight {
+  right: 5px;
+  top: 10px;
+}
+.MainPs {
+  font-weight: 400;
+  font-size: 15px;
+  color: #555;
+}
+/* Recent History */
+.Frame {
+  padding: 10px 10px 20px;
+  border-top: 1px solid #ddd;
+}
+.Frame h2 {
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+.Watched,
+.Searched {
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px 0 25px;
+  padding: 10px;
+}
+.Watched {
+  display: flex;
+}
+.Watched,
+.Searched {
+  border-bottom: 1px solid #ddd;
+  margin: 20px 0;
+}
+.WatchedTxt {
+  flex: 0.8;
+}
+.SearchedTxt p,
+.WatchedTxt p {
+  font-weight: 600;
+  font-size: 13px;
+}
+.SearchedTxt a,
+.WatchedTxt a {
+  color: #0c52c2;
+  font-weight: 600;
+}
+.SearchedTxt h6,
+.WatchedTxt h6 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #0c52c2;
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+.SearchedTxt span,
+.WatchedTxt span {
+  font-size: 11px;
+}
+.WatchedVid {
+  flex: 0.2;
+  position: relative;
+  overflow: hidden;
+  height: 79px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.WatchedVid img {
+  max-width: 100%;
+}
+.WatchedVid .PlayBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  color: #efefef;
+  opacity: 0.95;
+  transition: all 200ms ease-in-out;
+}
+.WatchedVid:hover > a {
+  filter: brightness(85%);
+}
+.WatchedVid:hover > .PlayBtn {
+  color: #fff;
+  opacity: 1;
+  filter: drop-shadow(0 0 5px#00000075);
+}
+.Frame > a {
+  color: #0c52c2;
+  padding: 0 10px;
+}
+.SeeAndDelete {
+  color: #0c52c2;
+  border-top: 1px solid #ddd;
+  display: block;
+  padding: 10px 0 0;
+}
+.VoiceSearch,
+.Borderd {
+  padding: 15px;
+}
+.PersonTitles {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0;
+  margin: 10px 0;
+}
+.Protect {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0;
+}
+.Protect i {
+  flex: 0.05;
+  position: relative;
+  height: 50%;
+}
+.Shield {
+  color: #0f57cc;
+  font-size: 40px !important;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+.Protect > p {
+  flex: 0.9;
+}
+.Grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 49%));
+  gap: 0 1%;
+  justify-content: space-between;
+}
+.Grid2 > .Borderd {
+  display: block;
+  margin: 10px 0;
+}
+.DataImgs {
+  max-width: 100%;
+}
+.DataImgs img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.DataTxt {
+  font-size: 18px;
+  color: #333;
+}
+.Grid3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 32%));
+  gap: 1%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.Grid3Top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.Grid3Top i {
+  flex: 0.15;
+}
+.ic {
+  color: #0c52c2;
+}
+.Grid3Top h2 {
+  flex: 0.8;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+/**********************************************************************/
+/* Tablates design */
+@media (max-width: 991px) {
+  .container {
+    width: 670px;
+    padding: 30px 15px 0;
+    margin: auto;
+  }
+}
+/**********************************************************************/
+/* Mobiles desigm */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 20px 15px 0;
+    margin: auto;
+  }
+  .Title {
+    font-size: 18px;
+    width: 100%;
+    margin: auto;
+  }
+  .ImgContainer {
+    width: 75%;
+    margin: 15px auto;
+  }
+  .YourDashboard h2 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .YourDashboard > p {
+    font-weight: 500;
+    font-size: 13px;
+    color: #555;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .DashComnt {
+    margin-bottom: 20px;
+  }
+  .DashSubs span p,
+  .DashComnt span p {
+    width: fit-content;
+  }
+  .DashSubs i,
+  .DashComnt i {
+    bottom: -7.5px;
+  }
+  .SecTitles {
+    font-size: 20px;
+  }
+  .SecPs {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+  .MainTitles {
+    font-size: 16px;
+  }
+  .MainPs {
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 13px;
+    color: #555;
+  }
+  /* Recent History */
+  .Frame h2 {
+    font-size: 16px;
+  }
+  .WatchedTxt {
+    flex: 0.55;
+  }
+  .SearchedTxt p,
+  .WatchedTxt p {
+    width: fit-content;
+    font-weight: 600;
+  }
+  .SearchedTxt span,
+  .WatchedTxt span {
+    font-size: 11px;
+  }
+  .WatchedVid {
+    /* background-color: #ff000050; */
+    flex: 0.4;
+  }
+  .SeeAndDelete,
+  .Frame > a {
+    font-size: 14px;
+  }
+  .Protect {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0;
+  }
+  .Protect i {
+    flex: 0.1;
+  }
+  .Shield {
+    font-size: 45px !important;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  .Protect a {
+    color: #0f57cc;
+  }
+  .Protect > p {
+    flex: 0.85;
+  }
+
+  .Grid2 {
+    display: block;
+  }
+  .Grid2 > .Borderd {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+  }
+  .DataImgs {
+    flex: 0.3;
+  }
+  .DataImgs img {
+    max-width: 100%;
+    margin: 0;
+  }
+  .DataTxt {
+    flex: 0.7;
+    font-size: 16px;
+    padding-top: 15px;
+    color: #333;
+  }
+  .Grid3 {
+    display: block;
+  }
+  .Grid3 .Borderd {
+    margin: 10px 0;
+  }
+  .Grid3Top {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .Grid3Top i {
+    flex: 0.05;
+  }
+  .Grid3Top h2 {
+    flex: 0.8;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,238 @@
+.Navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 20px 10px 0;
+  border-bottom: 1px solid #f6f6f6;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
+  height: fit-content;
+}
+a {
+  text-decoration: none;
+}
+.Logo {
+  width: 150px;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+.Logo img {
+  width: 100%;
+}
+.NavSearch {
+  display: flex;
+  width: 33%;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.SearchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  color: #333;
+  padding: 0 20px;
+}
+.SearchBtn {
+  width: 50px;
+  background-color: #eee;
+  border: none;
+  border-left: 1px solid #999;
+  cursor: pointer;
+  color: #333;
+}
+.SearchIcon {
+  color: #666;
+  text-align: center;
+  justify-content: center;
+}
+.NavUser {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.VidPlus,
+.Notifications,
+.UserAvatar {
+  cursor: pointer;
+}
+.UserAvatar {
+  position: relative;
+}
+.UserSettingsUL {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: -300px;
+  z-index: 10;
+  width: 250px;
+  padding: 10px 0;
+  list-style: none;
+  border-radius: 20px;
+  background-color: #ddd;
+  box-shadow: -10px 5px 15px #00000050;
+  opacity: 0;
+  transition: all 200ms ease-in-out, right 200ms ease-in-out;
+}
+.UserSettingsUL .UserInfo {
+  display: flex;
+  padding: 5px 10px;
+}
+.UserInfo .UserInfoText {
+  margin-left: 5px;
+}
+.UserInfo .UserInfoText h2,
+.UserInfo .UserInfoText p,
+.UserInfo .UserInfoText a {
+  font-size: 12px;
+  margin: 0;
+}
+.UserInfo .UserInfoText a {
+  font-weight: bold;
+  color: #002fff;
+  font-size: 12px;
+}
+.UserInfo a {
+  color: #666;
+  font-weight: bold;
+}
+.UserSettingsUL li {
+  padding: 5px 15px;
+  transition: all 200ms ease-in-out;
+}
+.UserSettingsUL li a {
+  color: #333;
+}
+.UserSettingsUL li:hover {
+  font-weight: bold;
+  background-color: #ffffff90;
+}
+.UserSettingsUL[active] {
+  opacity: 1;
+  position: fixed;
+  right: 70px;
+  background-color: #cccccc50;
+  backdrop-filter: blur(5px);
+}
+/**********************************************************************/
+/* tab design */
+@media (max-width: 991px) {
+  .Navbar {
+    padding: 10px 5px 0 0;
+    border-bottom: 1px solid #f6f6f6;
+  }
+  .Logo {
+    width: 120px;
+    padding: 10px;
+    padding-top: 4px;
+  }
+  .NavSearch {
+    width: 50%;
+    height: 35px;
+    border-radius: 17.5px;
+  }
+
+  .SearchBtn {
+    width: 40px;
+  }
+  .SearchIcon {
+    color: #555;
+  }
+  /********************/
+  .NavUser {
+    width: 13%;
+    margin-top: -10px;
+  }
+  .UserSettingsUL {
+    border-radius: 10px;
+    box-shadow: -10px 20px 15px #00000050;
+  }
+  .UserInfo .UserInfoText h2,
+  .UserInfo .UserInfoText p,
+  .UserInfo .UserInfoText a {
+    font-size: 14px;
+  }
+  .UserInfo .UserInfoText a {
+    font-size: 12px;
+  }
+  .UserInfo a {
+    color: #444;
+  }
+  .UserSettingsUL li a {
+    color: #333;
+  }
+  .UserSettingsUL li:hover {
+    font-weight: bold;
+    background-color: #ffffff90;
+  }
+  .UserSettingsUL[active] {
+    right: 50px;
+  }
+}
+/***************************************************************/
+/* Mobile design  */
+@media (max-width: 767px) {
+  .Navbar {
+    padding: 10px 5px 0 0;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  .Logo {
+    width: 100px;
+    overflow: hidden;
+    padding: 0 0 10px 5px;
+  }
+  .NavSearch {
+    width: 40%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 0;
+  }
+  .SearchInput {
+    padding-left: 12px;
+    width: calc(100% - 50px);
+  }
+  .SearchBtn {
+    width: 35px;
+    background-color: #eee;
+    border: none;
+    border-left: none;
+  }
+  .SearchIcon {
+    color: #666;
+    text-align: center;
+    justify-content: center;
+  }
+  .NavUser {
+    width: 25%;
+    overflow: hidden;
+  }
+  .UserSettingsUL {
+    width: 240px;
+    border-radius: 15px;
+  }
+  .UserInfo .UserInfoText h2,
+  .UserInfo .UserInfoText p,
+  .UserInfo .UserInfoText a {
+    font-size: 12px;
+    margin: 0;
+  }
+  .UserInfo a {
+    color: #444;
+  }
+  .UserSettingsUL li {
+    padding: 5px 10px;
+  }
+  .UserSettingsUL[active] {
+    opacity: 1;
+    position: fixed;
+    right: 45px;
+    backdrop-filter: blur(5px);
+  }
+}

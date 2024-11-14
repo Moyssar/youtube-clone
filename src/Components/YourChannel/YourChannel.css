@@ -1,0 +1,358 @@
+.YourChannel {
+  display: "block";
+  flex: 0.8;
+}
+.Top {
+  display: flex;
+  height: 200px;
+}
+.Left {
+  display: flex;
+  flex: 0.7;
+  padding: 20px;
+}
+.UserIcon {
+  width: 130px !important;
+  height: 130px !important;
+  margin-right: 20px;
+}
+.UserDetails {
+  margin-top: 25px;
+  flex-direction: column;
+  padding: 0;
+}
+h2 {
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+p {
+  width: fit-content;
+  margin: 0 0 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+p > span {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.Right {
+  flex: 0.3;
+  text-align: center;
+  padding-top: 50px;
+}
+.Right a {
+  background-color: #ddd;
+  color: #333;
+  padding: 7px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 300ms ease-in-out;
+}
+.Right a:first-of-type {
+  margin-right: 10px;
+}
+.Navs {
+  display: flex;
+  border-bottom: 1px solid #999;
+}
+.Navs a {
+  padding: 10px 20px;
+  margin-right: 20px;
+  position: relative;
+  color: #00000095;
+  font-weight: 500;
+  transition: color 200ms;
+}
+.Navs a:hover {
+  color: #000000;
+}
+.Navs a::before {
+  content: "";
+  width: 0;
+  height: 3px;
+  color: #909090;
+  border-radius: 1px;
+  background-color: #909090;
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  transition: all 200ms ease-in-out;
+}
+.Navs a:hover:before {
+  left: 0;
+  width: 100%;
+}
+.Tabs {
+  width: 80vw;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.Tab {
+  min-width: 100%;
+}
+#home,
+#playlists,
+#channels,
+#about {
+  text-align: center;
+}
+/* Home Section */
+#home h2 {
+  text-transform: capitalize;
+  color: #333;
+  margin-top: 20px;
+  font-size: 14px;
+}
+#home p {
+  margin: 5px auto;
+  font-weight: normal;
+  color: #444;
+  width: 350px;
+}
+#home button {
+  margin: 50px 0 0;
+  padding: 10px 20px;
+  background-color: #0088ff;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+  cursor: pointer;
+}
+#home h6 {
+  font-weight: normal;
+  font-size: 13px;
+}
+#home h6 > a {
+  color: #0088ff;
+}
+/* Home Section */
+
+/* Playlist Section */
+#playlists h2 {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #333;
+}
+/* Playlist Section */
+
+/* Channels Section */
+#channels h2 {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #333;
+}
+/* Channels Section */
+
+/* About Section */
+#about {
+  display: flex;
+}
+#about .left {
+  flex: 0.8;
+}
+#about .right {
+  flex: 0.2;
+  text-align: left;
+}
+#about .right h2 {
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 10px;
+  border-bottom: 1px solid #999;
+  color: #444;
+}
+#about .share {
+  color: #888;
+  font-size: 50px !important;
+  padding: 10px;
+}
+/* #about */
+/* About Section */
+
+/*************************************/
+/* Tablates design */
+@media (max-width: 991px) {
+  .Top {
+    height: 150px;
+  }
+  .Left {
+    padding: 20px;
+  }
+  .UserIcon {
+    width: 100px !important;
+    height: 100px !important;
+    margin-right: 20px;
+  }
+  .UserDetails {
+    margin-top: 10px;
+  }
+  h2 {
+    margin-bottom: 5px;
+  }
+  p {
+    margin: 0;
+  }
+  p > span {
+    margin-left: 10px;
+  }
+  .Right {
+    flex: 0.3;
+    text-align: center;
+    padding: 30px 10px;
+  }
+  .Right a {
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin: 0;
+  }
+  .Right a:first-of-type {
+    margin: 0 0 10px 0;
+  }
+  .Navs a:not(:last-of-type) {
+    margin-right: 20px;
+  }
+}
+/*****************************************************************************/
+/* Mobile design */
+@media (max-width: 767px) {
+  .YourChannel {
+    flex: 0.9;
+    width: 200px;
+    overflow: auto;
+  }
+  .Top {
+    display: block;
+    height: 200px;
+  }
+  .Left {
+    /* display: block; */
+    flex: 1;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  .UserIcon {
+    width: 80px !important;
+    height: 80px !important;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .UserDetails {
+    margin-top: 10px;
+    flex-direction: column;
+    padding: 0;
+  }
+  h2 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    font-weight: 400;
+    width: 140px;
+    word-wrap: break-word;
+  }
+  p > span {
+    font-size: 12px;
+    margin-left: 0;
+  }
+  .UserDetails a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+  }
+  .Right {
+    display: flex;
+    text-align: center;
+    padding: 10px 0 0 0;
+    justify-content: space-evenly;
+  }
+  .Right a {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: max-content;
+    height: 30px;
+  }
+  .Right a:first-of-type {
+    margin-right: 0;
+  }
+  .Navs {
+    padding: 0;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #999;
+  }
+  .Navs a {
+    padding: 5px 10px;
+    margin: 0;
+    color: #00000095;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 200ms;
+  }
+  .Navs a:not(:last-of-type) {
+    margin-right: 0;
+  }
+  .Tab {
+    width: 100%;
+  }
+  #home,
+  #playlists,
+  #channels,
+  #about {
+    text-align: center;
+  }
+  #home h2 {
+    text-transform: capitalize;
+    color: #333;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  #home p {
+    margin: 10px auto;
+    color: #555;
+    width: 100%;
+  }
+  #home button {
+    margin: 30px 0 0;
+    padding: 12px 20px 10px;
+  }
+  #home h6 {
+    font-size: 12px;
+  }
+  #playlists h2 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  #channels h2 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  #about .right h2 {
+    font-size: 14px;
+  }
+  #about .share {
+    color: #666;
+    font-size: 40px !important;
+  }
+  /* #about */
+  /* About Section */
+}
