@@ -30,7 +30,7 @@ const VideoSection = () => {
           <div className="Videos">
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/580" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -53,7 +53,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/780" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -76,7 +76,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/c80" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -99,7 +99,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/f80" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -122,7 +122,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/ee6" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -145,7 +145,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/4fc" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -168,7 +168,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/fce" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -191,7 +191,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/645e64" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -214,7 +214,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/580" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -237,7 +237,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/780" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -260,7 +260,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/c80" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -283,7 +283,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/f80" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -306,7 +306,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/ee6" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -329,7 +329,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/4fc" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -352,7 +352,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/fce" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
@@ -375,7 +375,7 @@ const VideoSection = () => {
             </div>
             <div className="Video">
               <div className="img">
-                <img alt="#" src="https://placeholder.com/1080x720/645e64" />
+                <img alt="#" src="https://placehold.co/1080x720/eeeeee" />
               </div>
               <div className="VidInfo">
                 <div className="ChanImg">
