@@ -4,6 +4,7 @@ import { Avatar } from "@mui/material";
 import { Verified } from "@mui/icons-material";
 import Sidebar from "../Sidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
+
 const VideoSection = () => {
   return (
     <>
