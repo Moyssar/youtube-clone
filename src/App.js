@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <BrowserRouter basename={process.env.process}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         {/* <Navbar/> */}
         <div className="App">
           {/* <Sidebar/> */}
